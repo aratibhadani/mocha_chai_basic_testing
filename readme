@@ -1,0 +1,43 @@
+For Chai NPM
+
+- 3 Assertion Style
+
+1) expect
+-------Chains------
+    - to
+    - be
+    - been
+    - is
+    - that
+    - which
+    - and
+    - has
+    - have
+    - with
+      - at
+      - of
+    - same
+    - but
+    - still
+-------------------
+
+Run single test file
+- changes on package.json file in script section(set any key name)
+      "test-single":"mocha"
+- run command in cmd
+      npm run test-single -- test/test-case/test.spec.js
+
+
+- Spies npm 
+      when testing on function level like (.,how many time function call,count function arguments)
+
+- stub npm (function return value change as per our requirement)assume the return value
+when nested function call at that time use stub for checking function argumnets and it's return value
+
+
+- chai-http
+   provides an interface for live integration testing via superagent, allows you to specify the http VERB request (get, post, etc) 
+
+- mocha awesome (mochawesome)
+   generate report for fail and successfull result
+   help to check cases ,it's provide in-build ui for check test case to better understanding of all cases
